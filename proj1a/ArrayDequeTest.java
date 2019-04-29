@@ -41,7 +41,7 @@ public class ArrayDequeTest {
     public static void addIsEmptySizeTest() {
         System.out.println("Running add/isEmpty/Size test.");
 
-        ArrayDeque<Integer> lld1 = new ArrayDeque<Integer>();
+        ArrayDeque1<Integer> lld1 = new ArrayDeque1<Integer>();
 
         boolean passed = checkEmpty(true, lld1.isEmpty());
 
@@ -100,7 +100,7 @@ public class ArrayDequeTest {
 
         System.out.println("Running add/remove test.");
 
-        ArrayDeque<Integer> lld1 = new ArrayDeque<>();
+        ArrayDeque1<Integer> lld1 = new ArrayDeque1<>();
         // should be empty
         boolean passed = checkEmpty(true, lld1.isEmpty());
 
@@ -120,7 +120,7 @@ public class ArrayDequeTest {
         lld1.addFirst(-3);
         passed = checkItem(-3,lld1.get(0)) && passed;
         passed = checkItem(5,lld1.get(8)) && passed;
-        ArrayDeque<Integer> lld2 = new ArrayDeque<>();
+        ArrayDeque1<Integer> lld2 = new ArrayDeque1<>();
         // should be empty
         boolean passed2 = checkEmpty(true, lld2.isEmpty());
         lld2.addFirst(3);

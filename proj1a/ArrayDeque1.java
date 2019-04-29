@@ -1,11 +1,11 @@
-public class ArrayDeque<T> {
+public class ArrayDeque1<T> {
     private T[] items;
     private int size;
     private int nextFirst;
     private int nextLast;
 
     /* Create and empty array-based deque. */
-    public ArrayDeque() {
+    public ArrayDeque1() {
         items = (T[]) new Object[8];
         nextFirst = items.length/2;
         nextLast = items.length/2+1;
@@ -13,7 +13,7 @@ public class ArrayDeque<T> {
     }
 
     /* Deep-copy of another deque */
-    public ArrayDeque(ArrayDeque other){
+    public ArrayDeque1(ArrayDeque1 other){
         items = (T[]) new Object[8];
         nextFirst = items.length/2;
         nextLast = items.length/2+1;
