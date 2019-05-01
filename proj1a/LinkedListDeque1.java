@@ -88,6 +88,7 @@ public class LinkedListDeque1<T> {
         size -= 1;
         DoublyNode currentNext = sentFront.next;
         sentFront.next = currentNext.next;
+        currentNext.next.prev = sentFront;
         return currentNext.item;
     }
 
@@ -99,6 +100,7 @@ public class LinkedListDeque1<T> {
         size -= 1;
         DoublyNode currentPrev = sentBack.prev;
         sentBack.prev = currentPrev.prev;
+        currentPrev.prev.next = sentBack;
         return currentPrev.item;
     }
 
