@@ -103,7 +103,7 @@ public class TestClorus {
         leftEmpty.put(Direction.RIGHT, new Impassible());
 
         actual = c.chooseAction(leftEmpty);
-        Action unexpected = new Action(Action.ActionType.REPLICATE, Direction.LEFT);
+        Action unexpected = new Action(Action.ActionType.REPLICATE, Direction.RIGHT);
 
         assertNotEquals(unexpected, actual);
 

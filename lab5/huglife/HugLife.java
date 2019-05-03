@@ -104,7 +104,7 @@ public class HugLife {
             addCreature(4, 3, new Plip());
         } else if (worldName.equals("strugggz")) {
             System.out.println("You need to uncomment the strugggz test!");
-            addCreature(11, 1, new SampleCreature());
+            //addCreature(11, 1, new SampleCreature());
             addCreature(12, 12, new Plip());
             addCreature(3, 3, new Plip());
             addCreature(4, 3, new Plip());
@@ -131,7 +131,6 @@ public class HugLife {
             int x = in.readInt();
             int y = in.readInt();
             switch (creature) {
-                //Uncomment this when you're ready to test out your clorus class
                 case "clorus":
                     h.addCreature(x, y, new Clorus(1));
                     break;

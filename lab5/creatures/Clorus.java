@@ -50,7 +50,7 @@ public class Clorus extends Creature {
      */
     public void move() {
         energy -= 0.03;
-        energy = Math.max(energy, 0.0);
+        //energy = Math.max(energy, 0.0);
     }
 
 
@@ -58,11 +58,8 @@ public class Clorus extends Creature {
      * Cloruses lose 0.01 energy when staying.
      */
     public void stay() {
-        b += HugLifeUtils.randomInt(-colorShift, colorShift);
-        b = Math.min(b, 255);
-        b = Math.max(b, 0);
         energy -= 0.01;
-        energy = Math.max(energy, 0.0);
+        //energy = Math.max(energy, 0.0);
     }
 
     /**
@@ -113,7 +110,6 @@ public class Clorus extends Creature {
         if (emptyNeighbors.isEmpty()) {
             return new Action(Action.ActionType.STAY);
         } else if (anyPlip) {
-            //Plip newP = this.replicate();
             return new Action(Action.ActionType.ATTACK, HugLifeUtils.randomEntry(plipNeighbors));
         } else if (energy >= 1.0) {
             return new Action(Action.ActionType.REPLICATE, HugLifeUtils.randomEntry(emptyNeighbors));

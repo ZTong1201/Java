@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c0f4cb3f-7237-4f3e-adad-d492b10db78f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/Clorus.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/Clorus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/creatures/TestClorus.java" beforeDir="false" afterPath="$PROJECT_DIR$/creatures/TestClorus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huglife/HugLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/huglife/HugLife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../proj1b/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1b/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/huglife/HugLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="8" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -30,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creatures/Clorus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+            <state relative-caret-position="451">
+              <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#431#432#0" expanded="true" />
@@ -44,8 +48,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creatures/TestClorus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="1334">
+              <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huglife/Action.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="536">
               <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
@@ -65,7 +69,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/huglife/SampleCreature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
+            <state relative-caret-position="-443">
               <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="102" selection-end-column="27" />
             </state>
           </provider>
@@ -86,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/creatures/TestPlip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-548">
               <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -181,6 +185,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -212,6 +217,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestClorus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creatures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="creatures" />
+      <option name="MAIN_CLASS_NAME" value="creatures.TestClorus" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestClorus.testAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab5" />
       <extension name="coverage">
@@ -228,7 +248,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestClorus.testBasics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClorus.testChoose" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab5" />
       <extension name="coverage">
         <pattern>
@@ -238,7 +258,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="creatures" />
       <option name="MAIN_CLASS_NAME" value="creatures.TestClorus" />
-      <option name="METHOD_NAME" value="testBasics" />
+      <option name="METHOD_NAME" value="testChoose" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,36 +280,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPlip.testBasics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="creatures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="creatures" />
-      <option name="MAIN_CLASS_NAME" value="creatures.TestPlip" />
-      <option name="METHOD_NAME" value="testBasics" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.HugLife" />
-      <item itemvalue="JUnit.TestPlip.testBasics" />
-      <item itemvalue="JUnit.TestClorus.testBasics" />
       <item itemvalue="JUnit.TestClorus.testReplicate" />
       <item itemvalue="JUnit.TestClorus.testAttack" />
+      <item itemvalue="JUnit.TestClorus" />
+      <item itemvalue="JUnit.TestClorus.testChoose" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.HugLife" />
-        <item itemvalue="JUnit.TestClorus.testReplicate" />
         <item itemvalue="JUnit.TestClorus.testAttack" />
-        <item itemvalue="JUnit.TestClorus.testBasics" />
-        <item itemvalue="JUnit.TestPlip.testBasics" />
+        <item itemvalue="JUnit.TestClorus" />
+        <item itemvalue="JUnit.TestClorus.testChoose" />
+        <item itemvalue="JUnit.TestClorus.testReplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -307,18 +311,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPlip_testChoose - 2019.05.02 at 17h 07m 44s.xml">
-      <configuration name="TestPlip.testChoose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlip_testChoose - 2019.05.02 at 17h 12m 10s.xml">
-      <configuration name="TestPlip.testChoose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlip_testChoose - 2019.05.02 at 17h 15m 16s.xml">
-      <configuration name="TestPlip.testChoose" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestPlip_testChoose - 2019.05.02 at 17h 16m 02s.xml">
-      <configuration name="TestPlip.testChoose" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestPlip_testBasics - 2019.05.02 at 17h 41m 57s.xml">
       <configuration name="TestPlip.testBasics" configurationId="JUnit" />
     </history-entry>
@@ -337,6 +329,18 @@
     <history-entry file="TestClorus_testReplicate - 2019.05.02 at 17h 52m 50s.xml">
       <configuration name="TestClorus.testReplicate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestClorus - 2019.05.02 at 21h 29m 16s.xml">
+      <configuration name="TestClorus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClorus_testChoose - 2019.05.02 at 21h 29m 49s.xml">
+      <configuration name="TestClorus.testChoose" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClorus - 2019.05.02 at 21h 29m 55s.xml">
+      <configuration name="TestClorus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestClorus_testAttack - 2019.05.02 at 21h 36m 05s.xml">
+      <configuration name="TestClorus.testAttack" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="731" extended-state="0" />
@@ -350,7 +354,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3286385" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3286385" />
       <window_info anchor="bottom" id="Style Checker" />
@@ -416,13 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/huglife/Action.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/huglife/Creature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -446,23 +443,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/TestClorus.java">
+    <entry file="file://$PROJECT_DIR$/huglife/Position.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/creatures/TestPlip.java">
+    <entry file="file://$PROJECT_DIR$/huglife/Action.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="536">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
@@ -476,17 +467,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/creatures/TestPlip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/huglife/SampleCreature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
+        <state relative-caret-position="-443">
           <caret line="100" column="8" lean-forward="true" selection-start-line="100" selection-start-column="8" selection-end-line="102" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/creatures/TestClorus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="105" column="83" selection-start-line="105" selection-start-column="83" selection-end-line="105" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ProcessBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1106" column="31" selection-start-line="1106" selection-start-column="31" selection-end-line="1106" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/creatures/Clorus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        <state relative-caret-position="451">
+          <caret line="61" column="10" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#431#432#0" expanded="true" />
@@ -497,8 +515,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/huglife/HugLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="136" column="16" selection-start-line="136" selection-start-column="16" selection-end-line="136" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
