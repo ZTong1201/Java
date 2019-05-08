@@ -1,16 +1,20 @@
 package hw2;
-import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 import edu.princeton.cs.introcs.StdRandom;
 import edu.princeton.cs.introcs.StdStats;
 
 public class PercolationStats {
 
-    private double[] res;
+    private final double[] res;
+    private final double confidenceLevel;
+    private final double mu;
+    private final double sigma;
+
     // perform T independent experiments on an N-by-N grid
     public PercolationStats(int N, int T, PercolationFactory pf) {
         if (N <= 0 || T <= 0) {
             throw new IllegalArgumentException("You grid size or simulation time can be less than or equal to 0!");
         }
+        confidenceLevel = 1.96;
         res = new double[T];
         for (int i = 0; i < T; i++) {
             Percolation system = pf.make(N);
@@ -23,28 +27,30 @@ public class PercolationStats {
             }
             res[i] = ((double) system.numberOfOpenSites())/ ((double) N*N);
         }
+        mu = StdStats.mean(res);
+        sigma = StdStats.stddev(res);
 
     }
     // sample mean of percolation threshold
     public double mean() {
-        return StdStats.mean(res);
+        return mu;
     }
     // sample standard deviation of percolation threshold
     public double stddev() {
-        return StdStats.stddev(res);
+        return sigma;
     }
     // low endpoint of 95% confidence interval
     public double confidenceLow() {
-        return mean() - 1.96 * stddev() / Math.sqrt(res.length);
+        return mu - 1.96 * sigma / Math.sqrt(res.length);
     }
     // high endpoint of 95% confidence interval
     public double confidenceHigh(){
-        return mean() + 1.96 * stddev() / Math.sqrt(res.length);
+        return mu + 1.96 * sigma / Math.sqrt(res.length);
     }
 
     public static void main(String[] args) {
         PercolationFactory pf = new PercolationFactory();
-        PercolationStats system = new PercolationStats(100,1000, pf);
+        PercolationStats system = new PercolationStats(200,1000, pf);
         System.out.println("The mean probability is: "+ system.mean());
         System.out.println("The standard deviation is: "+ system.stddev());
         System.out.println("The confidence interval is : ( " + system.confidenceLow() + " , " + system.confidenceHigh() + " )");

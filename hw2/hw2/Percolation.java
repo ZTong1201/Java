@@ -9,11 +9,9 @@ public class Percolation {
     private int size;
     private WeightedQuickUnionUF uf;
     private WeightedQuickUnionUF ufWithoutBottom;
-    private String[][] grid;
+    private boolean[][] grid;
     private int VirtualTopSite;
     private int VirtualBottomSite;
-    private int[] dr;
-    private int[] dc;
 
     /**
      * constructor of percolation system
@@ -28,15 +26,8 @@ public class Percolation {
         ufWithoutBottom = new WeightedQuickUnionUF(N*N+1);
         VirtualTopSite = 0;
         VirtualBottomSite = N*N + 1;
-        grid = new String[N][N];
-        for (int  i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                grid[i][j] = "blocked";
-            }
-        }
+        grid = new boolean[N][N];
         size = 0;
-        dr = new int[]{0, 0, -1, 1};
-        dc = new int[]{1, -1, 0, 0};
     }
 
     /**
@@ -56,32 +47,27 @@ public class Percolation {
      * @param col
      */
     public void open(int row, int col) {
-        if (row < 0 || row >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
-        }
-        if (col < 0 || col >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
-        }
+        validate(row, col);
         if (!isOpen(row, col)) {
-            if (row - 1 >= 0 && grid[row - 1][col].equals("open")) {
+            if (row - 1 >= 0 && grid[row - 1][col]) {
                 uf.union(index(row, col), index(row - 1, col));
                 ufWithoutBottom.union(index(row, col), index(row - 1, col));
             }
-            if (row + 1 < grid.length && grid[row + 1][col].equals("open")) {
+            if (row + 1 < grid.length && grid[row + 1][col]) {
                 uf.union(index(row, col), index(row + 1, col));
                 ufWithoutBottom.union(index(row, col), index(row + 1, col));
             }
-            if (col - 1 >= 0 && grid[row][col - 1].equals("open")) {
+            if (col - 1 >= 0 && grid[row][col - 1]) {
                 uf.union(index(row, col), index(row, col - 1));
                 ufWithoutBottom.union(index(row, col), index(row, col - 1));
             }
-            if (col + 1 < grid.length && grid[row][col + 1].equals("open")) {
+            if (col + 1 < grid.length && grid[row][col + 1]) {
                 uf.union(index(row, col), index(row, col + 1));
                 ufWithoutBottom.union(index(row, col), index(row, col + 1));
             }
+            grid[row][col] = true;
+            size += 1;
         }
-        grid[row][col] = "open";
-        size += 1;
         if (row == 0) {
             uf.union(VirtualTopSite, index(row, col));
             ufWithoutBottom.union(VirtualTopSite, index(row, col));
@@ -98,13 +84,8 @@ public class Percolation {
      * @return true if the site is already open, false otherwise
      */
     public boolean isOpen(int row, int col) {
-        if (row < 0 || row >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
-        }
-        if (col < 0 || col >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
-        }
-        return grid[row][col].equals("open");
+        validate(row, col);
+        return grid[row][col];
     }
 
     /**
@@ -114,12 +95,7 @@ public class Percolation {
      * @return true if the site is connected to top-row sites, false otherwise
      */
     public boolean isFull(int row, int col) {
-        if (row < 0 || row >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
-        }
-        if (col < 0 || col >= grid.length) {
-            throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
-        }
+        validate(row, col);
         return uf.connected(VirtualTopSite, index(row, col)) && ufWithoutBottom.connected(VirtualTopSite, index(row, col));
     }
 
@@ -139,8 +115,9 @@ public class Percolation {
         return size;
     }
 
-    public static void main(String[] args) {
-        Percolation system = new Percolation(20);
-        system.open(1,3);
+    private void validate(int row, int col) {
+        if (row < 0 || row >= grid.length || col < 0 || col >= grid.length) {
+            throw new IndexOutOfBoundsException();
+        }
     }
 }
