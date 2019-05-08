@@ -35,16 +35,16 @@ public class PercolationStats {
     }
     // low endpoint of 95% confidence interval
     public double confidenceLow() {
-        return mean() - 1.96 * stddev() / (double) res.length;
+        return mean() - 1.96 * stddev() / Math.sqrt(res.length);
     }
     // high endpoint of 95% confidence interval
     public double confidenceHigh(){
-        return mean() + 1.96 * stddev() / (double) res.length;
+        return mean() + 1.96 * stddev() / Math.sqrt(res.length);
     }
 
     public static void main(String[] args) {
         PercolationFactory pf = new PercolationFactory();
-        PercolationStats system = new PercolationStats(100,10000, pf);
+        PercolationStats system = new PercolationStats(20,10000, pf);
         System.out.println("The mean probability is: "+ system.mean());
         System.out.println("The standard deviation is: "+ system.stddev());
         System.out.println("The confidence interval is : ( " + system.confidenceLow() + " , " + system.confidenceHigh() + " )");
