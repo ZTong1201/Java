@@ -45,7 +45,7 @@ public class Percolation {
      * @param j
      * @return desired index
      */
-    private int index (int i, int j) {
+    private int index(int i, int j) {
         return i * grid.length + j + 1;
     }
 
@@ -56,24 +56,28 @@ public class Percolation {
      * @param col
      */
     public void open(int row, int col) {
-        if (row < 0 || row > grid.length) {
+        if (row < 0 || row >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
         }
-        if (col < 0 || col > grid.length) {
+        if (col < 0 || col >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
         }
-        int pos = index(row, col);
-        if (isOpen(row, col)) {
-            return;
-        }
-        for (int k = 0; k < 4; k++) {
-            int newX = dr[k] + row;
-            int newY = dc[k] + col;
-            if (newX >= 0 && newX < grid.length && newY >= 0 && newY < grid.length) {
-                if (grid[newX][newY] == "open") {
-                    uf.union(index(row, col), index(newX, newY));
-                    ufWithoutBottom.union(index(row, col), index(newX, newY));
-                }
+        if (!isOpen(row, col)) {
+            if (row - 1 >= 0 && grid[row - 1][col].equals("open")) {
+                uf.union(index(row, col), index(row - 1, col));
+                ufWithoutBottom.union(index(row, col), index(row - 1, col));
+            }
+            if (row + 1 < grid.length && grid[row + 1][col].equals("open")) {
+                uf.union(index(row, col), index(row + 1, col));
+                ufWithoutBottom.union(index(row, col), index(row + 1, col));
+            }
+            if (col - 1 >= 0 && grid[row][col - 1].equals("open")) {
+                uf.union(index(row, col), index(row, col - 1));
+                ufWithoutBottom.union(index(row, col), index(row, col - 1));
+            }
+            if (col + 1 < grid.length && grid[row][col + 1].equals("open")) {
+                uf.union(index(row, col), index(row, col + 1));
+                ufWithoutBottom.union(index(row, col), index(row, col + 1));
             }
         }
         grid[row][col] = "open";
@@ -94,13 +98,13 @@ public class Percolation {
      * @return true if the site is already open, false otherwise
      */
     public boolean isOpen(int row, int col) {
-        if (row < 0 || row > grid.length) {
+        if (row < 0 || row >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
         }
-        if (col < 0 || col > grid.length) {
+        if (col < 0 || col >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
         }
-        return grid[row][col] == "open";
+        return grid[row][col].equals("open");
     }
 
     /**
@@ -110,10 +114,10 @@ public class Percolation {
      * @return true if the site is connected to top-row sites, false otherwise
      */
     public boolean isFull(int row, int col) {
-        if (row < 0 || row > grid.length) {
+        if (row < 0 || row >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + row + "is out of bound between 0" + (grid.length - 1));
         }
-        if (col < 0 || col > grid.length) {
+        if (col < 0 || col >= grid.length) {
             throw new IndexOutOfBoundsException("Index" + col + "is out of bound between 0" + (grid.length - 1));
         }
         return uf.connected(VirtualTopSite, index(row, col)) && ufWithoutBottom.connected(VirtualTopSite, index(row, col));
@@ -138,6 +142,5 @@ public class Percolation {
     public static void main(String[] args) {
         Percolation system = new Percolation(20);
         system.open(1,3);
-        system.isOpen(1, 3);
     }
 }

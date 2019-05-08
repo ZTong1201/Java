@@ -44,7 +44,7 @@ public class PercolationStats {
 
     public static void main(String[] args) {
         PercolationFactory pf = new PercolationFactory();
-        PercolationStats system = new PercolationStats(20,10000, pf);
+        PercolationStats system = new PercolationStats(100,1000, pf);
         System.out.println("The mean probability is: "+ system.mean());
         System.out.println("The standard deviation is: "+ system.stddev());
         System.out.println("The confidence interval is : ( " + system.confidenceLow() + " , " + system.confidenceHigh() + " )");
