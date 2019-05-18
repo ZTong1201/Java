@@ -1,4 +1,4 @@
-package bearmaps;
+package bearmaps.proj2ab;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.NoSuchElementException;
@@ -25,7 +25,7 @@ public class ArrayHeapMinPQ<T> implements ExtrinsicMinPQ<T> {
         if(size == 0) throw new NoSuchElementException();
         PriorityNode returnNode = items.get(1);
         swap(1, size);
-        items.set(size, null);
+        items.remove(size);
         size -= 1;
         index.remove(returnNode.item);
         sinkDown(1);
