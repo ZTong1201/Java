@@ -51,11 +51,6 @@ public class KDTree implements PointSet {
             return root;
         }
 
-        private boolean isLeaf(Node root) {
-            if(root.left == null && root.right == null) return true;
-            return false;
-        }
-
         public Node findNearest(Node root, Point p, Node best, int depth) {
             Node good;
             Node bad;
@@ -92,8 +87,5 @@ public class KDTree implements PointSet {
             }
             return best;
         }
-
-
     }
-
 }
