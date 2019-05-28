@@ -15,5 +15,5 @@ to LeetCode 803 [Bricks Falling When Hit](https://leetcode.com/problems/bricks-f
 11. clab9: [Graphs](https://sp19.datastructur.es/materials/clab/clab9/clab9)
 12. lab11: [Merge Sort and Quick Sort](https://sp19.datastructur.es/materials/lab/lab11/lab11)
 13. clab11: [Bears and Beds](https://sp19.datastructur.es/materials/clab/clab11/clab11)
-14. lab12: [Getting Started on Project 3](https://sp19.datastructur.es/materials/lab/lab12/lab12)
-15. lab13: [Interactivity in Project 3](https://sp19.datastructur.es/materials/lab/lab13/lab13)
+14. lab12: [Getting Started on Project 3](https://sp19.datastructur.es/materials/lab/lab12/lab12) (repo locates in project/proj3)
+15. lab13: [Interactivity in Project 3](https://sp19.datastructur.es/materials/lab/lab13/lab13) (repo locates in project/proj3)
