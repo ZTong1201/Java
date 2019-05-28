@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="proj2c">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../skeleton-sp19/library-sp19/javalib/proj2c" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../skeleton-sp19/library-sp19/javalib/proj2c" recursive="false" />
+  </library>
+</component>
