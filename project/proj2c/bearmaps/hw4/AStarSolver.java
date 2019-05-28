@@ -1,7 +1,7 @@
 package bearmaps.hw4;
 
 import java.util.*;
-import edu.princeton.cs.algs4.Stopwatch;
+import bearmaps.hw4.Stopwatch;
 import bearmaps.proj2ab.*;
 
 

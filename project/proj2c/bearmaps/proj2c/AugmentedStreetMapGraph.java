@@ -4,7 +4,7 @@ import bearmaps.hw4.streetmap.StreetMapGraph;
 import bearmaps.proj2ab.KDTree;
 import bearmaps.proj2ab.Point;
 import bearmaps.proj2ab.WeirdPointSet;
-import edu.princeton.cs.algs4.TrieST;
+import bearmaps.hw4.TrieST;
 
 import java.util.*;
 

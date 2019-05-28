@@ -4,7 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import bearmaps.hw4.*;
 import bearmaps.hw4.streetmap.StreetMapGraph;
-import org.apache.commons.math3.geometry.spherical.twod.Vertex;
 
 /**
  * This class acts as a helper for the RoutingAPIHandler.
