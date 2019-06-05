@@ -26,22 +26,25 @@ Project 2C | [Bear Maps](https://sp19.datastructur.es/materials/proj/proj2c/proj
 Project 3 | [Bulid Your Own World](https://sp19.datastructur.es/materials/proj/proj3/proj3) | [proj3](https://github.com/ZTong1201/Java/tree/master/project/proj3)
 
 ### CS61B Labs
-1. lab2setup: [Setting Up IntelliJ](https://sp19.datastructur.es/materials/lab/lab2setup/lab2setup)
-2. lab2: [JUnit](https://sp19.datastructur.es/materials/lab/lab2/lab2)
-3. lab3: [Testing and Debugging](https://sp19.datastructur.es/materials/lab/lab3/lab3)
-4. lab5: [HugLife](https://sp19.datastructur.es/materials/lab/lab5/lab5)
-5. lab6: [Disjoint Sets](https://sp19.datastructur.es/materials/lab/lab6/lab6)
-6. clab6: [Falling Bubbles](https://sp19.datastructur.es/materials/clab/clab6/clab6), it is actually a leetcode problem, please refer
-to LeetCode 803 [Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) for more information
-6. lab7: [TreeMap](https://sp19.datastructur.es/materials/lab/lab7/lab7)
-7. clab7: [Binary Search Tree Performance](https://sp19.datastructur.es/materials/clab/clab7/clab7)
-8. lab8: [HashMap](https://sp19.datastructur.es/materials/lab/lab8/lab8)
-9. clab8: [Heaps and Hashes](https://sp19.datastructur.es/materials/clab/clab8/clab8)
-10. lab9: [Tries](https://sp19.datastructur.es/materials/lab/lab9/lab9)
-11. clab9: [Graphs](https://sp19.datastructur.es/materials/clab/clab9/clab9)
-12. lab11: [Merge Sort and Quick Sort](https://sp19.datastructur.es/materials/lab/lab11/lab11)
-13. clab11: [Bears and Beds](https://sp19.datastructur.es/materials/clab/clab11/clab11)
-14. lab12: [Getting Started on Project 3](https://sp19.datastructur.es/materials/lab/lab12/lab12) (repo locates in project/proj3)
-15. lab13: [Interactivity in Project 3](https://sp19.datastructur.es/materials/lab/lab13/lab13) (repo locates in project/proj3)
+Note: clab corresponds to challenging lab
+
+Lab Index | Detailed Requirements | Quick Link to My Solution
+--------------- | --------------- | ---------------
+lab2setup | [Setting Up IntelliJ](https://sp19.datastructur.es/materials/lab/lab2setup/lab2setup) | [lab2setup](https://github.com/ZTong1201/Java/tree/master/lab/lab2setup)
+lab2 | [JUnit](https://sp19.datastructur.es/materials/lab/lab2/lab2) | [lab2](https://github.com/ZTong1201/Java/tree/master/lab/lab2)
+lab3 | [Testing and Debugging](https://sp19.datastructur.es/materials/lab/lab3/lab3) | [lab3](https://github.com/ZTong1201/Java/tree/master/lab/lab3)
+lab5 | [HugLife](https://sp19.datastructur.es/materials/lab/lab5/lab5) | [lab5](https://github.com/ZTong1201/Java/tree/master/lab/lab5)
+lab6 | [Disjoint Sets](https://sp19.datastructur.es/materials/lab/lab6/lab6) | [lab6](https://github.com/ZTong1201/Java/tree/master/lab/lab6)
+clab6 | [Falling Bubbles](https://sp19.datastructur.es/materials/clab/clab6/clab6), it is actually a leetcode problem, please refer to LeetCode 803 [Bricks Falling When Hit](https://leetcode.com/problems/bricks-falling-when-hit/) for more information | [clab6](https://github.com/ZTong1201/Java/tree/master/lab/clab6)
+lab7 | [TreeMap](https://sp19.datastructur.es/materials/lab/lab7/lab7) | [lab7](https://github.com/ZTong1201/Java/tree/master/lab/lab7)
+clab7 | [Binary Search Tree Performance](https://sp19.datastructur.es/materials/clab/clab7/clab7) | [clab7](https://github.com/ZTong1201/Java/tree/master/lab/clab7)
+lab8 | [HashMap](https://sp19.datastructur.es/materials/lab/lab8/lab8) | [lab8](https://github.com/ZTong1201/Java/tree/master/lab/lab8)
+clab8 | [Heaps and Hashes](https://sp19.datastructur.es/materials/clab/clab8/clab8) | [clab8](https://github.com/ZTong1201/Java/tree/master/lab/clab8)
+lab9 | [Tries](https://sp19.datastructur.es/materials/lab/lab9/lab9) | [lab9](https://github.com/ZTong1201/Java/tree/master/lab/lab9)
+clab9 | [Graphs](https://sp19.datastructur.es/materials/clab/clab9/clab9) | [clab9](https://github.com/ZTong1201/Java/tree/master/lab/clab9)
+lab11 | [Merge Sort and Quick Sort](https://sp19.datastructur.es/materials/lab/lab11/lab11) | [lab11](https://github.com/ZTong1201/Java/tree/master/lab/lab11)
+clab11 | [Bears and Beds](https://sp19.datastructur.es/materials/clab/clab11/clab11) | [clab11](https://github.com/ZTong1201/Java/tree/master/lab/clab11)
+lab12 | [Getting Started on Project 3](https://sp19.datastructur.es/materials/lab/lab12/lab12) | [lab12](https://github.com/ZTong1201/Java/tree/master/project/proj3/byow/lab12) (repo locates in project/proj3)
+lab13 | [Interactivity in Project 3](https://sp19.datastructur.es/materials/lab/lab13/lab13) | [lab13](https://github.com/ZTong1201/Java/tree/master/project/proj3/byow/lab13) (repo locates in project/proj3)
 
 Reference: [cs61B-spring 2019](https://sp19.datastructur.es/)
