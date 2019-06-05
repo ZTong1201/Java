@@ -16,13 +16,14 @@ Homework 3 |[Hashing](https://sp19.datastructur.es/materials/hw/hw3/hw3) | [hw3]
 Homework 4 | [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4) | [hw4](https://github.com/ZTong1201/Java/tree/master/hw/hw4/bearmaps)
 
 ### CS61B Projects
-1. Project 0: [NBody Simulation](https://sp19.datastructur.es/materials/proj/proj0/proj0)
-2. Project 1A: [Data Structures](https://sp19.datastructur.es/materials/proj/proj1a/proj1a), specifically, constructing deque using linked
-lists and arrays.
-3. Project 1B:  [Applying and Testing Data Structures](https://sp19.datastructur.es/materials/proj/proj1b/proj1b)
-4. Project 2AB: [Extrinsic PQ and KDTree](https://sp19.datastructur.es/materials/proj/proj2ab/proj2ab)
-5. Project 2C: [Bear Maps](https://sp19.datastructur.es/materials/proj/proj2c/proj2c)
-6. Project 3: [BYoW](https://sp19.datastructur.es/materials/proj/proj3/proj3)
+Project Index | Detailed Requirements | Quick Link to My Solution
+--------------- | --------------- | ---------------
+Project 0 | [NBody Simulation](https://sp19.datastructur.es/materials/proj/proj0/proj0) | [proj0](https://github.com/ZTong1201/Java/tree/master/project/proj0)
+Project 1A | [ArrayDeque & LinkedListDeque](https://sp19.datastructur.es/materials/proj/proj1a/proj1a) | [proj1a](https://github.com/ZTong1201/Java/tree/master/project/proj1a)
+Project 1B | [Applying and Testing Data Structures](https://sp19.datastructur.es/materials/proj/proj1b/proj1b) | [proj1b](https://github.com/ZTong1201/Java/tree/master/project/proj1b)
+Project 2AB | [Extrinsic PQ and KDTree](https://sp19.datastructur.es/materials/proj/proj2ab/proj2ab) | [proj2ab](https://github.com/ZTong1201/Java/tree/master/project/proj2ab/bearmaps)
+Project 2C | [Bear Maps](https://sp19.datastructur.es/materials/proj/proj2c/proj2c) | [proj2c](https://github.com/ZTong1201/Java/tree/master/project/proj2c)
+Project 3 | [Bulid Your Own World](https://sp19.datastructur.es/materials/proj/proj3/proj3) | [proj3](https://github.com/ZTong1201/Java/tree/master/project/proj3)
 
 ### CS61B Labs
 1. lab2setup: [Setting Up IntelliJ](https://sp19.datastructur.es/materials/lab/lab2setup/lab2setup)
