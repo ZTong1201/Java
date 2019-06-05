@@ -12,8 +12,8 @@ Homework Index | Detailed Requirements | Quick Link to My Solution
 --------------- | --------------- | ---------------
 Homework 1 | [Java Syntax and Sound Synthesis](https://sp19.datastructur.es/materials/hw/hw1/hw1) | [hw1](https://github.com/ZTong1201/Java/tree/master/hw/hw1)
 Homework 2 | [Percolation](https://sp19.datastructur.es/materials/hw/hw2/hw2) | [hw2](https://github.com/ZTong1201/Java/tree/master/hw/hw2)
-Homework 3 |[Hashing](https://sp19.datastructur.es/materials/hw/hw3/hw3) | [hw3](https://github.com/ZTong1201/Java/tree/master/hw/hw3/hw3/hash)
-Homework 4 | [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4) | [hw4](https://github.com/ZTong1201/Java/tree/master/hw/hw4/bearmaps)
+Homework 3 |[Hashing](https://sp19.datastructur.es/materials/hw/hw3/hw3) | [hw3](https://github.com/ZTong1201/Java/tree/master/hw/hw3)
+Homework 4 | [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4) | [hw4](https://github.com/ZTong1201/Java/tree/master/hw/hw4)
 
 ### CS61B Projects
 Project Index | Detailed Requirements | Quick Link to My Solution
