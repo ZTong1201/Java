@@ -1,21 +1,21 @@
 # Algorithms and Data Structures in Java
 
 
-This is a Java data structure and algorithm course of UC Berkeley which contains tons of homework, labs, and projects. This repo records my solutions to every task for this course. You can refer to
+This is a Java data structure and algorithm course (CS61B) of UC Berkeley which contains tons of homework, labs, and projects. This repo records my solutions to every task for this course. You can refer to
 different topics in seperate folders in this repo.
 
 For more information about homework/lab/project requirements and statements, please see below.
 
 ### CS61B Homeworks
-These are my solutions to UC Berkeley CS61B homeworks.
-1. Homework 1: [Java Syntax and Sound Synthesis](https://sp19.datastructur.es/materials/hw/hw1/hw1)
-2. Homework 2: [Percolation](https://sp19.datastructur.es/materials/hw/hw2/hw2)
-3. Homework 3: [Hashing](https://sp19.datastructur.es/materials/hw/hw3/hw3)
-4. Homework 4: [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4)
+
+Homework Index | Detailed Requirements | Quick Link to My Solution
+--------------- | --------------- | ---------------
+Homework 1 | [Java Syntax and Sound Synthesis](https://sp19.datastructur.es/materials/hw/hw1/hw1) | [hw1](https://github.com/ZTong1201/Java/tree/master/hw/hw1)
+Homework 2 | [Percolation](https://sp19.datastructur.es/materials/hw/hw2/hw2) | [hw2](https://github.com/ZTong1201/Java/tree/master/hw/hw2)
+Homework 3 |[Hashing](https://sp19.datastructur.es/materials/hw/hw3/hw3) | [hw3](https://github.com/ZTong1201/Java/tree/master/hw/hw3/hw3/hash)
+Homework 4 | [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4) | [hw4](https://github.com/ZTong1201/Java/tree/master/hw/hw4/bearmaps)
 
 ### CS61B Projects
-These are my solutions to UC Berkeley CS61B projects.
-
 1. Project 0: [NBody Simulation](https://sp19.datastructur.es/materials/proj/proj0/proj0)
 2. Project 1A: [Data Structures](https://sp19.datastructur.es/materials/proj/proj1a/proj1a), specifically, constructing deque using linked
 lists and arrays.
@@ -25,7 +25,6 @@ lists and arrays.
 6. Project 3: [BYoW](https://sp19.datastructur.es/materials/proj/proj3/proj3)
 
 ### CS61B Labs
-These are my solutions to UC Berkeley CS61B Labs and Challenging Labs (clabs).
 1. lab2setup: [Setting Up IntelliJ](https://sp19.datastructur.es/materials/lab/lab2setup/lab2setup)
 2. lab2: [JUnit](https://sp19.datastructur.es/materials/lab/lab2/lab2)
 3. lab3: [Testing and Debugging](https://sp19.datastructur.es/materials/lab/lab3/lab3)
