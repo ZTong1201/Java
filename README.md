@@ -1,10 +1,10 @@
-# Java
-Algorithms and Data Structures in Java
+# Algorithms and Data Structures in Java
 
-This course contains tons of homework, labs, and projects. This repo records my solutions to every task for this course. You can refer to
-different topics in seperate repos.
 
-For more information about homework/lab/project requirements, please see below.
+This is a Java data structure and algorithm course of UC Berkeley which contains tons of homework, labs, and projects. This repo records my solutions to every task for this course. You can refer to
+different topics in seperate folders in this repo.
+
+For more information about homework/lab/project requirements and statements, please see below.
 
 ### CS61B Homeworks
 These are my solutions to UC Berkeley CS61B homeworks.
@@ -14,5 +14,4 @@ These are my solutions to UC Berkeley CS61B homeworks.
 4. Homework 4: [Puzzle Solver](https://sp19.datastructur.es/materials/hw/hw4/hw4)
 
 
-<br>
 Reference: [cs61B-spring 2019](https://sp19.datastructur.es/)
